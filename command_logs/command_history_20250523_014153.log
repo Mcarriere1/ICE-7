@@ -1,0 +1,12 @@
+[2025-05-23 01:41:53] [/workspaces/ICE-7] source .devcontainer/shell.sh
+[2025-05-23 01:41:57] [/workspaces/ICE-7] ps
+[2025-05-23 01:42:40] [/workspaces/ICE-7] sleep 500 &
+[2025-05-23 01:42:40] [/workspaces/ICE-7] sleep 500 &
+[2025-05-23 01:42:44] [/workspaces/ICE-7] sleep 500 &
+[2025-05-23 01:42:52] [/workspaces/ICE-7] ps aux | grep sleep
+[2025-05-23 01:43:23] [/workspaces/ICE-7] kill 5230 5235 5278
+[2025-05-23 01:43:29] [/workspaces/ICE-7] ps aux
+[2025-05-23 01:43:37] [/workspaces/ICE-7] ps aux --sort=-%cpu | head -n 20
+[2025-05-23 01:43:42] [/workspaces/ICE-7] yes > /dev/null &
+[2025-05-23 01:43:49] [/workspaces/ICE-7] ps aux | grep yes
+[2025-05-23 01:43:56] [/workspaces/ICE-7] pkill -9 yes
